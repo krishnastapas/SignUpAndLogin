@@ -1,0 +1,63 @@
+body {
+    background-image: url('backgroudPic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  #navbar{
+      display: flex;
+      color: white;
+      height: 100px;
+      background-color:  #19192c;
+         /* border-style: solid; */
+    
+  }
+
+  #logoDiv{
+      flex:20%;
+      /* text-align: center; */
+      padding:10px;
+      padding-left: 10%;
+      /* border-style: solid; */
+      
+    }
+  #logoDiv img{
+    
+   width:70px;
+   height:90px;
+  }
+  #menuDiv{
+    flex:70%;
+    padding-top: 15px;
+    align-self: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #menuDiv a{
+      padding: 2%;
+
+    }
+  #btnDiv{
+      flex: 10%;
+      align-self: center;
+      /* border-style: solid; */
+      display: flex;
+      justify-content: center;
+      padding-top: 15px;
+      padding-right:5% ;
+    }
+
+  
+    #signDiv{
+   margin: 5px;
+  /* border-style: solid; */
+  
+  }
+  #loginDiv{
+    margin: 5px;
+     
+    /* border-style: solid;   */
+  }
